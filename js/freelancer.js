@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage({responsiveHeight: 500});
+    $('#fullpage').fullpage({responsiveHeight: 550});
 });

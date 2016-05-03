@@ -93,3 +93,84 @@ section.coming-soon {
 		}
 	}
 }
+
+section.about-me
+{
+    background: #18BC9C;
+	div.container{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	img.profile-image {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	div.contact-card-container{
+		margin-top: 60px;
+		div.panel.contact-card{
+			> .panel-body{
+				padding: 10px;
+			}
+			i.fa{
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+		}
+	}
+	div.contact-icon-container{
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		@media (min-width:768px) {
+			margin-top: 38px;
+		}
+		div.contact-icon{
+			display: inline-block;
+			@media (min-width:768px) {
+				display: block;
+				margin-bottom: 21px;
+				text-align: center;
+			}
+			> a{
+				color: white;
+				text-align: center;
+				line-height: 70px;		
+				display: inline-block;
+				width: 66px;
+				height: 66px;
+				border: solid 2px white;
+				border-radius: 100%;
+				transition: all 0.3s ease-in-out;
+				&:hover,
+				&:focus,
+				&.active {
+					color: #18BC9C;
+					background: white;
+					border: solid 2px white;
+				}
+			}
+		}
+	}
+	.title{
+		color: white;
+		font-size: 2em;
+		margin-top: 15px;
+		@media(min-width:768px) {
+			font-size: 4.75em;
+		}
+	}
+	.text{
+		color: white;
+		font-size: 1.25em;
+		@media(min-width:768px) {
+			font-size: 1.75em;
+		}
+	}
+	hr.star{
+		color: white;
+		&:after{
+			background-color: #18BC9C;
+		}
+	}
+}
