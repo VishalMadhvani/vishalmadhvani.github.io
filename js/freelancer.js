@@ -1,3 +1,7 @@
-$(document).ready(function() {
-    $('#fullpage').fullpage({responsiveHeight: 550});
+$(document).ready(function () {
+    $('#fullpage').fullpage({
+        controlArrows: false,
+        slidesNavigation: true,
+        responsiveHeight: 550
+    });
 });
